@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Free Estimate | A&amp;A Exteriors — Rowlett, TX</title>
+  <meta name="description" content="Request a free, no-obligation estimate from A&amp;A Exteriors for outdoor lighting, fire pits, retaining walls, pergolas, fences, concrete, and outdoor kitchens in the DFW area." />
+  <meta name="theme-color" content="#1f2a24" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="A&amp;A Exteriors home">
+        <span class="brand__mark">A&amp;A</span>
+        <span class="brand__name"><b>A&amp;A Exteriors</b><span>Outdoor Living &amp; Hardscape</span></span>
+      </a>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-controls="navLinks" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="estimate.html">Free Estimate</a></li>
+      </ul>
+      <div class="nav__cta">
+        <a class="nav__phone" href="tel:+14694967500">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          469-496-7500
+        </a>
+        <a class="btn btn--primary" href="estimate.html">Free Estimate</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== PAGE HERO ===================== -->
+  <section class="section--tight" style="background:var(--cream-2);">
+    <div class="container center">
+      <span class="eyebrow">Free &amp; No Obligation</span>
+      <h1 style="max-width:18ch;margin-inline:auto;">Request your free estimate</h1>
+      <p class="lead" style="margin:1rem auto 0;">Tell us about your project and we'll be in touch to schedule a visit. The more detail you share, the more accurate we can be.</p>
+    </div>
+  </section>
+
+  <!-- ===================== FORM + CONTACT ===================== -->
+  <section class="section" style="padding-top:clamp(2rem,4vw,3.5rem);">
+    <div class="container estimate-layout">
+
+      <!-- FORM -->
+      <div class="form-card reveal">
+        <!--
+          ⚠️  SET UP FORMSPREE:
+          1. Create a free form at https://formspree.io
+          2. Copy your form endpoint (looks like https://formspree.io/f/abcdwxyz)
+          3. Replace YOUR_FORM_ID below with your real ID.
+          Until then, the form will show a friendly "not connected yet" message.
+        -->
+        <form id="estimateForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+
+          <div class="field-row">
+            <div class="field">
+              <label for="name">Full Name <span class="req">*</span></label>
+              <input type="text" id="name" name="name" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label for="phone">Phone <span class="req">*</span></label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" required />
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="email">Email <span class="req">*</span></label>
+              <input type="email" id="email" name="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="city">City / Area</label>
+              <input type="text" id="city" name="city" placeholder="e.g. Rowlett, TX" />
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="address">Project Address</label>
+            <input type="text" id="address" name="address" autocomplete="street-address" placeholder="Street address where the work will happen" />
+          </div>
+
+          <div class="field">
+            <label>Which service(s) are you interested in?</label>
+            <div class="checks">
+              <label class="check"><input type="checkbox" name="services[]" value="Outdoor Lighting" /> Outdoor Lighting</label>
+              <label class="check"><input type="checkbox" name="services[]" value="Fire Pits" /> Fire Pits</label>
+              <label class="check"><input type="checkbox" name="services[]" value="Retaining Walls" /> Retaining Walls</label>
+              <label class="check"><input type="checkbox" name="services[]" value="Pergolas" /> Pergolas</label>
+              <label class="check"><input type="checkbox" name="services[]" value="Fences" /> Fences</label>
+              <label class="check"><input type="checkbox" name="services[]" value="Concrete Work" /> Concrete Work</label>
+              <label class="check"><input type="checkbox" name="services[]" value="Outdoor Kitchens" /> Outdoor Kitchens</label>
+              <label class="check"><input type="checkbox" name="services[]" value="Not sure yet" /> Not sure yet</label>
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="timeline">Ideal Timeline</label>
+              <select id="timeline" name="timeline">
+                <option value="">Select one…</option>
+                <option>As soon as possible</option>
+                <option>Within 1–3 months</option>
+                <option>3–6 months</option>
+                <option>Just exploring / planning</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="budget">Estimated Budget</label>
+              <select id="budget" name="budget">
+                <option value="">Select one…</option>
+                <option>Under $5,000</option>
+                <option>$5,000 – $15,000</option>
+                <option>$15,000 – $30,000</option>
+                <option>$30,000+</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="details">Project Details</label>
+            <textarea id="details" name="details" placeholder="Tell us about your project — size, materials, ideas, or anything else that helps us prepare."></textarea>
+          </div>
+
+          <!-- Helps replies go to the customer & labels the email in your inbox -->
+          <input type="hidden" name="_subject" value="New Free Estimate Request — A&A Exteriors" />
+          <!-- Simple honeypot spam trap (leave hidden & empty) -->
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
+          <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center;font-size:1.05rem;">Request My Free Estimate</button>
+          <p style="font-size:.82rem;color:#7a8072;margin:.9rem 0 0;text-align:center;">We respect your privacy. Your information is only used to contact you about your project.</p>
+
+          <div id="formMsg" class="form-msg" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+
+      <!-- ASIDE / CONTACT -->
+      <aside class="form-aside reveal">
+        <h2 style="font-size:1.6rem;">Prefer to talk?</h2>
+        <p style="color:#55604e;">Reach out directly and we'll be glad to help.</p>
+        <ul class="contact-list">
+          <li>
+            <span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+            <div><b>Call or Text</b><a href="tel:+14694967500">469-496-7500</a></div>
+          </li>
+          <li>
+            <span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></span>
+            <div><b>Email</b><a href="mailto:sales@aa-exteriors.com">sales@aa-exteriors.com</a></div>
+          </li>
+          <li>
+            <span class="ci"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+            <div><b>Visit / Mail</b><span>3526 Lakeview Pkwy #B159<br/>Rowlett, TX 75088</span></div>
+          </li>
+        </ul>
+
+        <div class="note" style="margin-top:1.75rem;">
+          <strong>What happens next?</strong> After you submit, a member of our team will reach out to confirm details and schedule your free on-site estimate.
+        </div>
+      </aside>
+
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand">
+            <span class="brand__mark">A&amp;A</span>
+            <span class="brand__name"><b>A&amp;A Exteriors</b><span>Outdoor Living &amp; Hardscape</span></span>
+          </div>
+          <p>Designing and building premium outdoor living spaces across Rowlett and the greater Dallas–Fort Worth area.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="estimate.html">Free Estimate</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Get In Touch</h4>
+          <ul class="footer-contact">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>3526 Lakeview Pkwy #B159<br/>Rowlett, TX 75088</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:+14694967500">469-496-7500</a></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg><a href="mailto:sales@aa-exteriors.com">sales@aa-exteriors.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span data-year>2026</span> A&amp;A Exteriors. All rights reserved.</span>
+        <span>Rowlett, TX &middot; Serving the DFW Metroplex</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
