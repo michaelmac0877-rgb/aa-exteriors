@@ -98,6 +98,8 @@ p  { margin: 0 0 1rem; }
 }
 .nav { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: .7rem 0; }
 .brand { display: flex; align-items: center; gap: .7rem; }
+.brand__logo { height: 54px; width: auto; display: block; }
+@media (max-width: 480px){ .brand__logo { height: 44px; } }
 .brand__mark {
   width: 42px; height: 42px; border-radius: 10px;
   display: grid; place-items: center;
@@ -325,6 +327,8 @@ p  { margin: 0 0 1rem; }
 .site-footer a:hover { color: var(--amber); }
 .footer-brand .brand__name b { color:#fff; }
 .footer-brand .brand__name span { color: rgba(255,255,255,.6); }
+.footer-logo { display:inline-block; background:#fff; border-radius:14px; padding:14px 18px; box-shadow: var(--shadow); }
+.footer-logo img { height:64px; width:auto; display:block; }
 .footer-brand p { color: rgba(255,255,255,.66); font-size:.95rem; margin-top:1rem; max-width: 34ch; }
 .footer-links { list-style:none; margin:0; padding:0; display:grid; gap:.6rem; font-size:.96rem; }
 .footer-contact { list-style:none; margin:0; padding:0; display:grid; gap:.7rem; font-size:.96rem; }
