@@ -23,7 +23,7 @@ Concrete Work (walkways, patios & additions) · Outdoor Kitchens
 ## ✅ Setup checklist (do these to go live)
 
 ### 1. Connect the estimate form to Formspree
-1. Sign up (free) at <https://formspree.io> using **sales@aa-exteriors.com**.
+1. Sign up (free) at <https://formspree.io> using **michael@aa-exteriors.com**.
 2. Create a new form and copy its endpoint — it looks like
    `https://formspree.io/f/abcdwxyz`.
 3. Open `estimate.html`, find `YOUR_FORM_ID`, and replace the whole action URL
@@ -59,7 +59,7 @@ Phone, email, and address appear in the header/footer of every page and on the
 estimate page. Current values:
 
 - **Phone:** 469-496-7500
-- **Email:** sales@aa-exteriors.com
+- **Email:** michael@aa-exteriors.com
 - **Address:** 3526 Lakeview Pkwy #B159, Rowlett, TX 75088
 
 ## Preview locally
