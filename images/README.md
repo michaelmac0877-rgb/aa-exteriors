@@ -1,38 +1,42 @@
 # Images folder
 
-Drop your project photos here using the **exact file names** below and they'll
-appear automatically on the site — no code changes needed. Until a file exists,
-the site shows a styled placeholder in its place, so nothing ever looks broken.
+## ✅ Real A&A project photos (live on the site)
 
-> Tip: JPG or WebP, landscape orientation, roughly **1600px wide**, saved at
-> medium-high quality. Aim for under ~400 KB each so pages load fast.
+These are your actual project photos, already placed and optimized:
 
-## Home page
-| File name        | Where it shows            |
-|------------------|---------------------------|
-| `hero.jpg`       | Big banner at the top     |
-| `cta.jpg`        | Background of the amber "Ready to reimagine" band |
-| `gallery-1.jpg`  | Gallery — Outdoor Kitchen |
-| `gallery-2.jpg`  | Gallery — Fire Pit & Patio|
-| `gallery-3.jpg`  | Gallery — Retaining Wall  |
-| `gallery-4.jpg`  | Gallery — Pergola         |
-| `gallery-5.jpg`  | Gallery — Landscape Lighting |
-| `gallery-6.jpg`  | Gallery — Concrete Patio  |
+| File                  | Used for                                        |
+|-----------------------|-------------------------------------------------|
+| `work-fireplace.jpg`  | Homepage hero + gallery "Outdoor Fireplace & Fire Pit" |
+| `work-stamped.jpg`    | Gallery "Stamped Concrete Pool Deck" + About page + CTA band |
+| `work-pavilion.jpg`   | Gallery "Covered Patio & Pavilion"              |
+| `work-pavers.jpg`     | Gallery "Paver Patio & Walkway"                 |
+| `work-walkway.jpg`    | Gallery "Concrete Walkway"                      |
+| `work-patio.jpg`      | Gallery "Concrete Patio Addition"               |
+| `hero.jpg`            | Copy of `work-fireplace.jpg` (homepage banner)  |
+| `cta.jpg`             | Copy of `work-stamped.jpg` (amber CTA band)     |
+| `logo.png`            | Header + footer logo (transparent background)   |
 
-## Services page
-| File name                | Service          |
-|--------------------------|------------------|
-| `service-lighting.jpg`   | Outdoor Lighting |
-| `service-firepit.jpg`    | Fire Pits        |
-| `service-wall.jpg`       | Retaining Walls  |
-| `service-pergola.jpg`    | Pergolas         |
-| `service-fence.jpg`      | Fences           |
-| `service-concrete.jpg`   | Concrete Work    |
-| `service-kitchen.jpg`    | Outdoor Kitchens |
+## 📷 Adding more project photos
 
-## About page
-| File name         | Where it shows                 |
-|-------------------|--------------------------------|
-| `about-team.jpg`  | Photo next to your story/intro |
+Send them over and I'll crop, optimize, and place them. Or drop them here
+yourself and tell me the filenames — I'll wire them into the gallery.
 
-You can also add more gallery photos later — just tell me and I'll wire them in.
+**Photo tips:** landscape orientation works best, shoot in good light, and try
+to capture the *finished* job with tools and debris cleared. Roughly 1600px wide
+is plenty; I'll handle resizing and compression.
+
+## 🖼️ Still needed — service page images
+
+The Services page still shows placeholders for services we don't have photos of
+yet. These will be filled with free-to-use stock photography:
+
+`service-lighting.jpg` · `service-firepit.jpg` · `service-wall.jpg` ·
+`service-pergola.jpg` · `service-fence.jpg` · `service-concrete.jpg` ·
+`service-kitchen.jpg`
+
+Best of all is replacing these with real A&A jobs as you complete them.
+
+## 👥 Optional
+
+`about-team.jpg` — a photo of the crew/owners for the About page. Currently the
+About page uses a project photo instead.
