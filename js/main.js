@@ -40,6 +40,24 @@
     revealables.forEach(function (el) { el.classList.add("in"); });
   }
 
+  /* ---- Projects page: filter by project type ---------------------------- */
+  var filterBar = document.getElementById("projectFilter");
+  if (filterBar) {
+    var tiles = document.querySelectorAll("#projectGrid .project");
+    filterBar.addEventListener("click", function (ev) {
+      var btn = ev.target.closest(".chip");
+      if (!btn) return;
+      var want = btn.getAttribute("data-filter");
+      filterBar.querySelectorAll(".chip").forEach(function (c) {
+        c.classList.toggle("is-on", c === btn);
+      });
+      tiles.forEach(function (t) {
+        var tags = (t.getAttribute("data-tags") || "").split(/\s+/);
+        t.classList.toggle("is-hidden", want !== "all" && tags.indexOf(want) === -1);
+      });
+    });
+  }
+
   /* ---- Current year in footer ------------------------------------------- */
   document.querySelectorAll("[data-year]").forEach(function (el) {
     el.textContent = new Date().getFullYear();
