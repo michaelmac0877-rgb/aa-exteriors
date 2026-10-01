@@ -106,7 +106,7 @@ PAGES = [
         "eyebrow": "Heath, Texas",
         "h1": "Concrete driveway replacement in Heath, TX",
         "intro": "Heath driveways tend to be long, and long driveways fail in more places. We tear out cracked, settled, and spalling concrete and replace it with a properly based, steel-reinforced 3500 PSI slab.",
-        "hero_image": "/images/work-walkway.jpg",
+        "hero_image": "/images/project-driveway.jpg",
         "cta_h": "Get a written estimate for your Heath driveway.",
         "cta_p": "Free, in-person, and itemized — so you know exactly what's included.",
         "body": """
@@ -176,7 +176,7 @@ PAGES = [
         "eyebrow": "Rockwall, Texas",
         "h1": "Retaining walls in Rockwall, TX",
         "intro": "Rockwall took its name from a rock wall early settlers found running under the ground here. We build the modern kind — engineered walls that hold back slope, stop erosion, and turn an unusable grade into level yard.",
-        "hero_image": "/images/work-fireplace.jpg",
+        "hero_image": "/images/project-lakeside-wall.jpg",
         "cta_h": "Let's look at your Rockwall slope.",
         "cta_p": "Free on-site assessment. We'll tell you what the wall actually needs to do.",
         "body": """
@@ -297,53 +297,122 @@ PAGES = [
         "nav_active": "/projects",
         "breadcrumbs": [("/projects", "Projects")],
         "title": "Our Projects | Concrete & Hardscape Work in Rowlett, Rockwall & Heath TX",
-        "description": "Finished concrete, stamped concrete, pool deck, retaining wall and outdoor living projects by A&A Exteriors across Rowlett, Rockwall, Heath and the DFW Metroplex.",
+        "description": "Finished concrete, stamped concrete, pool deck, retaining wall, pergola and fence projects by A&A Exteriors across Rowlett, Rockwall, Heath and the DFW Metroplex.",
         "eyebrow": "Our Work",
         "h1": "Projects we've finished",
-        "intro": "Real work by our own crew — no stock photography. Filter by the kind of project you're considering.",
-        "hero_image": "/images/work-fireplace.jpg",
+        "intro": "Real work by our own crew \u2014 no stock photography, no borrowed portfolios. Filter by the kind of project you're considering.",
+        "hero_image": "/images/project-lakeside-wall.jpg",
         "cta_h": "Want something like this in your yard?",
         "cta_p": "Free on-site estimates across Rowlett, Rockwall, Heath and the DFW Metroplex.",
         "body": """
   <section class="section">
     <div class="container">
       <div class="filterbar reveal" id="projectFilter">
-        <button class="chip is-on" data-filter="all">All projects</button>
+        <button class="chip is-on" data-filter="all">All</button>
+        <button class="chip" data-filter="concrete">Concrete</button>
         <button class="chip" data-filter="stamped">Stamped Concrete</button>
-        <button class="chip" data-filter="concrete">Concrete Flatwork</button>
+        <button class="chip" data-filter="walls">Retaining Walls &amp; Stone</button>
         <button class="chip" data-filter="outdoor-living">Outdoor Living</button>
-        <button class="chip" data-filter="pavers">Pavers</button>
+        <button class="chip" data-filter="fences">Fences</button>
+        <button class="chip" data-filter="landscape">Landscape</button>
       </div>
 
-      <div class="gallery" id="projectGrid">
-        <figure class="gallery-item project" data-tags="outdoor-living" style="background-image:url('/images/work-fireplace.jpg')">
-          <figcaption><b>Outdoor Fireplace &amp; Fire Pit</b><span>Covered pavilion, stone fireplace, and a stone fire pit off a finished concrete patio.</span></figcaption>
+      <div class="gallery gallery--projects" id="projectGrid">
+
+        <figure class="project" data-tags="walls stamped outdoor-living">
+          <img src="/images/project-lakeside-wall.jpg" alt="Tiered stone retaining walls and pool decking on a lakefront property in the DFW area" loading="lazy" width="1200" height="828" />
+          <figcaption><b>Lakefront Pool &amp; Retaining Walls</b><span>Tiered stone walls stepping down to the water, with exposed-aggregate pool decking above.</span></figcaption>
         </figure>
-        <figure class="gallery-item project" data-tags="stamped concrete" style="background-image:url('/images/work-stamped.jpg')">
-          <figcaption><b>Stamped Concrete Pool Deck</b><span>Multi-tone stamped stone pattern wrapping a pool and running back to the house.</span></figcaption>
+
+        <figure class="project" data-tags="stamped concrete">
+          <img src="/images/work-stamped.jpg" alt="Stamped concrete pool deck in a multi-tone stone pattern" loading="lazy" width="768" height="1024" />
+          <figcaption><b>Stamped Concrete Pool Deck</b><span>Multi-tone stamped stone pattern wrapping the pool and running back to the house.</span></figcaption>
         </figure>
-        <figure class="gallery-item project" data-tags="outdoor-living stamped" style="background-image:url('/images/work-pavilion.jpg')">
-          <figcaption><b>Covered Patio &amp; Pavilion</b><span>Timber-framed patio cover over a stamped concrete patio.</span></figcaption>
+
+        <figure class="project" data-tags="concrete">
+          <img src="/images/project-driveway.jpg" alt="Finished broom-finish concrete driveway between two homes" loading="lazy" width="1200" height="773" />
+          <figcaption><b>Concrete Driveway Replacement</b><span>Full tear-out and replacement, broom finish with control joints at engineered spacing.</span></figcaption>
         </figure>
-        <figure class="gallery-item project" data-tags="pavers" style="background-image:url('/images/work-pavers.jpg')">
-          <figcaption><b>Paver Patio &amp; Walkway</b><span>Large-format pavers set in decorative gravel through a side yard.</span></figcaption>
+
+        <figure class="project" data-tags="outdoor-living walls">
+          <img src="/images/work-fireplace.jpg" alt="Outdoor stone fireplace and fire pit under a covered pavilion" loading="lazy" width="1184" height="880" />
+          <figcaption><b>Outdoor Fireplace &amp; Fire Pit</b><span>Covered pavilion with a stone fireplace and a separate stone fire pit off the patio.</span></figcaption>
         </figure>
-        <figure class="gallery-item project" data-tags="concrete" style="background-image:url('/images/work-walkway.jpg')">
-          <figcaption><b>Concrete Walkway</b><span>Broom-finish walkway with tooled edges and control joints at engineered spacing.</span></figcaption>
+
+        <figure class="project" data-tags="outdoor-living">
+          <img src="/images/project-pergola.jpg" alt="Cedar pergola patio cover being built over a concrete patio" loading="lazy" width="1200" height="900" />
+          <figcaption><b>Cedar Pergola &amp; Patio Cover</b><span>Heavy cedar timber cover tied into the house, built over a new concrete patio.</span></figcaption>
         </figure>
-        <figure class="gallery-item project" data-tags="concrete" style="background-image:url('/images/work-patio.jpg')">
-          <figcaption><b>Concrete Patio Addition</b><span>New patio slab extending usable space off the back of the house, with a drainage channel at the threshold.</span></figcaption>
+
+        <figure class="project" data-tags="walls outdoor-living">
+          <img src="/images/project-lakeside-spa.jpg" alt="Stone retaining wall and spa overlooking a lake" loading="lazy" width="1200" height="855" />
+          <figcaption><b>Lakeside Spa &amp; Stonework</b><span>Natural stone facing and coping on a raised spa, built into the slope above the water.</span></figcaption>
+        </figure>
+
+        <figure class="project" data-tags="fences">
+          <img src="/images/project-cedar-fence.jpg" alt="New cedar privacy fence being sealed by an A&A Exteriors crew member" loading="lazy" width="968" height="1200" />
+          <figcaption><b>Cedar Privacy Fence</b><span>New cedar privacy fence, run straight and sealed before we left the site.</span></figcaption>
+        </figure>
+
+        <figure class="project" data-tags="outdoor-living stamped">
+          <img src="/images/work-pavilion.jpg" alt="Timber-framed patio pavilion over a stamped concrete patio" loading="lazy" width="880" height="1184" />
+          <figcaption><b>Covered Patio &amp; Pavilion</b><span>Timber-framed pavilion over stamped concrete, opening off the back of the house.</span></figcaption>
+        </figure>
+
+        <figure class="project" data-tags="concrete">
+          <img src="/images/work-patio.jpg" alt="New concrete patio slab extending living space off the back of a house" loading="lazy" width="1200" height="900" />
+          <figcaption><b>Concrete Patio Addition</b><span>New slab extending usable space off the back of the house, with a drainage channel at the threshold.</span></figcaption>
+        </figure>
+
+        <figure class="project" data-tags="concrete">
+          <img src="/images/work-walkway.jpg" alt="Broom-finish concrete walkway with tooled edges" loading="lazy" width="900" height="1200" />
+          <figcaption><b>Concrete Walkway</b><span>Broom-finish walkway with tooled edges and joints placed where the slab wants to move.</span></figcaption>
+        </figure>
+
+        <figure class="project" data-tags="landscape">
+          <img src="/images/work-pavers.jpg" alt="Large-format paver patio set in decorative gravel" loading="lazy" width="900" height="1200" />
+          <figcaption><b>Paver Patio &amp; Walkway</b><span>Large-format pavers set in decorative gravel through a narrow side yard.</span></figcaption>
+        </figure>
+
+        <figure class="project" data-tags="landscape walls">
+          <img src="/images/project-sod-border.jpg" alt="Fresh sod lawn with a stone border and agave planting bed" loading="lazy" width="1200" height="900" />
+          <figcaption><b>Sod, Stone Border &amp; Beds</b><span>Fresh sod with a stacked stone border and drought-tolerant planting bed.</span></figcaption>
+        </figure>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== HOW WE BUILD ===================== -->
+  <section class="section" style="background:var(--cream-2);">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">Behind the Finish</span>
+        <h2>The part you don't see</h2>
+        <p class="lead" style="margin-inline:auto;">Anyone can photograph a finished slab. What decides whether it's still flat in ten years happens before the concrete truck shows up.</p>
+      </div>
+      <div class="gallery gallery--projects">
+        <figure class="project">
+          <img src="/images/build-base-prep.jpg" alt="A&A Exteriors crew compacting aggregate base before a concrete pour" loading="lazy" width="1000" height="1200" />
+          <figcaption><b>Base Preparation</b><span>Excavating and mechanically compacting aggregate base. On North Texas clay, this is the step that decides everything.</span></figcaption>
+        </figure>
+        <figure class="project">
+          <img src="/images/build-rebar-forms.jpg" alt="Steel reinforcement grid and forms set and ready for a concrete pour" loading="lazy" width="948" height="1200" />
+          <figcaption><b>Forms &amp; Steel</b><span>Reinforcement tied and supported so it sits centered in the slab, where it can actually do its job.</span></figcaption>
+        </figure>
+        <figure class="project">
+          <img src="/images/build-block-wall.jpg" alt="Segmental block retaining wall being laid course by course" loading="lazy" width="938" height="1200" />
+          <figcaption><b>Wall Courses</b><span>Block set on a compacted leveling pad. Every error in the bottom course multiplies as the wall goes up.</span></figcaption>
         </figure>
       </div>
-
-      <p class="center" style="margin-top:2.5rem;color:#6b7364;">More projects are added as we finish them. To see work similar to what you're planning, just ask &mdash; call <a href="tel:+14694967500">469-496-7500</a>.</p>
+      <p class="center" style="margin-top:2.2rem;color:#6b7364;">More projects go up as we finish them. Looking for something specific? Call <a href="tel:+14694967500" style="color:var(--amber-dark);text-decoration:underline;">469-496-7500</a> and we'll send photos of similar work.</p>
     </div>
   </section>
 """,
         "related": [
             ("/concrete-patios-stamped-concrete", "Concrete & Stamped Patios", "Broom-finish and stamped patios, additions, and extensions."),
-            ("/pool-deck-resurfacing", "Pool Deck Resurfacing", "Overlay systems that renew sound pool decking."),
             ("/retaining-walls", "Retaining Walls", "Engineered walls for slope, drainage, and erosion."),
+            ("/concrete-driveways", "Concrete Driveways", "Replacement driveways built on a properly compacted base."),
         ],
         "related_heading": "Services shown here",
     },

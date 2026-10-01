@@ -137,7 +137,7 @@ PAGES = [
         "eyebrow": "Concrete Driveways",
         "h1": "Concrete driveway replacement",
         "intro": "A failing driveway is the first thing anyone sees of your house. We tear out cracked, settled, and spalling concrete and replace it with a properly based, steel-reinforced 3500 PSI slab built to carry vehicle loads for the long haul.",
-        "hero_image": "/images/work-walkway.jpg",
+        "hero_image": "/images/project-driveway.jpg",
         "cta_h": "Get a written driveway estimate.",
         "cta_p": "Free on-site estimates with a full written scope — no obligation, no pressure.",
         "body": """
@@ -305,7 +305,7 @@ PAGES = [
         "eyebrow": "Retaining Walls",
         "h1": "Retaining walls built to hold",
         "intro": "A retaining wall is a structure doing a structural job: holding back soil that wants to move. Built right, it turns an unusable slope into level, planted, living space. Built wrong, it leans, bulges, and eventually comes apart.",
-        "hero_image": "/images/work-fireplace.jpg",
+        "hero_image": "/images/project-lakeside-wall.jpg",
         "cta_h": "Let's look at your slope.",
         "cta_p": "Free on-site assessment across Rowlett, Rockwall, Heath and the DFW Metroplex.",
         "body": """

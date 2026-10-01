@@ -450,3 +450,30 @@ p  { margin: 0 0 1rem; }
 .footer-grid--4 { grid-template-columns: 1.5fr 1fr 1fr 1.2fr; }
 @media (max-width: 900px){ .footer-grid--4 { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 520px){ .footer-grid--4 { grid-template-columns: 1fr; } }
+
+/* ----- projects gallery (img-based, lazy loaded) ----- */
+.gallery--projects { grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); }
+.gallery--projects .project {
+  position: relative; margin: 0; overflow: hidden; border-radius: var(--radius);
+  box-shadow: var(--shadow); background: var(--forest-2);
+  border: 1px solid rgba(31,42,36,.06);
+  transition: transform .25s var(--ease), box-shadow .25s var(--ease);
+}
+.gallery--projects .project:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+.gallery--projects .project img {
+  width: 100%; height: 300px; object-fit: cover; display: block;
+  transition: transform .5s var(--ease);
+}
+.gallery--projects .project:hover img { transform: scale(1.04); }
+.gallery--projects .project figcaption {
+  position: absolute; inset: auto 0 0 0; padding: 2.2rem 1.1rem .95rem; color: #fff;
+  background: linear-gradient(180deg, rgba(0,0,0,0), rgba(0,0,0,.55) 40%, rgba(0,0,0,.88));
+}
+.gallery--projects .project figcaption b {
+  display: block; font-family: "Fraunces", serif; font-size: 1.05rem; line-height: 1.25;
+}
+.gallery--projects .project figcaption span {
+  display: block; font-size: .86rem; color: rgba(255,255,255,.8); margin-top: .25rem; line-height: 1.45;
+}
+.gallery--projects .project.is-hidden { display: none; }
+@media (max-width: 560px){ .gallery--projects .project img { height: 240px; } }
